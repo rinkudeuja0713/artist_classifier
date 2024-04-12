@@ -24,29 +24,29 @@ function init() {
             image_data: file.dataURL
         },function(data, status) {
             /* 
-            Below is a sample response if you have two faces in an image lets say virat and roger together.
+            Below is a sample response if you have two faces in an image lets say taylor and drake together.
             Most of the time if there is one person in the image you will get only one element in below array
             data = [
                 {
-                    class: "viral_kohli",
+                    class: "taylor_swift",
                     class_probability: [1.05, 12.67, 22.00, 4.5, 91.56],
                     class_dictionary: {
-                        lionel_messi: 0,
-                        maria_sharapova: 1,
-                        roger_federer: 2,
-                        serena_williams: 3,
-                        virat_kohli: 4
+                        zendaya: 0,
+                        taylor_swift: 1,
+                        drake: 2,
+                        rihanna: 3,
+                        
                     }
                 },
                 {
-                    class: "roder_federer",
+                    class: "drake",
                     class_probability: [7.02, 23.7, 52.00, 6.1, 1.62],
                     class_dictionary: {
-                        lionel_messi: 0,
-                        maria_sharapova: 1,
-                        roger_federer: 2,
-                        serena_williams: 3,
-                        virat_kohli: 4
+                        zendaya: 0,
+                        taylor_swift: 1,
+                        drake: 2,
+                        rihanna: 3,
+                        
                     }
                 }
             ]
